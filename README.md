@@ -4,7 +4,7 @@ Click  on one of the sliders to start exploring
 
 Inspired by George Bryan's work on this, but including entrainment and precipitation. For precipitation, a fall-out 'length-scale' is used for simplicity (as there is no prognostic-vertical velocity).
 
-When entrainment is set proportional to  $1/z$, the entrainment constant chosen is typical for 1000m height.
+When entrainment is set proportional to  1/z, the entrainment constant chosen is typical for 1000m height.
 
 Other options:
 - MSE correction for the buoyancy production term in the prognostic equation for MSE
