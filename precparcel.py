@@ -70,11 +70,12 @@ for i in range(8):
     tsl[i].on_changed(update)
 
 resetax = axes([0.8, 0.01, 0.1, 0.07])
-button = Button(resetax, 'Reset', color=axcolor, hovercolor='0.975')
+button = Button(resetax, 'Reset/Start', color=axcolor, hovercolor='0.975')
 
 def reset(event):
     for i in range(8):
         tsl[i].reset()
+    update(event)
 
 button.on_clicked(reset)
 
