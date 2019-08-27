@@ -1,6 +1,6 @@
 # A simple model to explore whether different thermodynamic variables are similar
 
-Click  on one of the sliders to start exploring
+**Click  on one of the sliders to start exploring**
 
 Inspired by George Bryan's work on this, but including entrainment and precipitation. For precipitation, a fall-out 'length-scale' is used for simplicity (as there is no prognostic-vertical velocity).
 
