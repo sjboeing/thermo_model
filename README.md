@@ -22,3 +22,5 @@ Inputs:
 - RH: uniform throughout atmsophere
 - Virtual temperature lapse rate: idem
 - Parcel temperature and moisture excess at surface
+
+![example](https://github.com/sjboeing/thermo_model/blob/master/example_deltatv.png)
