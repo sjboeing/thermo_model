@@ -35,6 +35,7 @@ python precparcel.py
 
 It should also be possible to compile the code in stand-alone mode and plot using e.g. gnuplot.
 
+```
 gfortran: f95 -fdefault-double precision-8 simpletest.f90 -o simpletest
 ./simpletest > gpfile
-
+```
