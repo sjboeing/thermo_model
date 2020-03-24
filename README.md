@@ -4,7 +4,7 @@
 (The sliders are for interactive exploring)
 
 
-Inspired by George Bryan's work on this, but including entrainment and precipitation. For precipitation, a fall-out 'length-scale' is used for simplicity (as there is no prognostic-vertical velocity).
+Inspired by George Bryan's and J. Michael Fritsch work on this, but including entrainment and precipitation. For precipitation, a fall-out 'length-scale' is used for simplicity (as there is no prognostic-vertical velocity).
 
 When entrainment is set proportional to  1/z, the entrainment constant chosen is typical for 1000m height. Entrainment only occurs one condensation takes place, and only above 200m for model stability.
 
