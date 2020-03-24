@@ -25,7 +25,15 @@ Inputs:
 - Virtual temperature lapse rate: idem
 - Parcel temperature and moisture excess at surface with respect to this reference profile
 
-There is a python visual interface which uses wx, but it should also be possible to compile the code in stand-alone mode and plot using e.g. gnuplot.
+There is a python visual interface which uses wx. To setup the environment I used and run the code, try:
+```
+conda env create --name thermo_model --file=environment.yml
+conda activate thermo_model
+./compile
+python precparcel.py
+```
+
+It should also be possible to compile the code in stand-alone mode and plot using e.g. gnuplot.
 
 gfortran: f95 -fdefault-double precision-8 simpletest.f90 -o simpletest
 ./simpletest > gpfile
