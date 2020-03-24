@@ -6,7 +6,7 @@
 
 Inspired by George Bryan's work on this, but including entrainment and precipitation. For precipitation, a fall-out 'length-scale' is used for simplicity (as there is no prognostic-vertical velocity).
 
-When entrainment is set proportional to  1/z, the entrainment constant chosen is typical for 1000m height.
+When entrainment is set proportional to  1/z, the entrainment constant chosen is typical for 1000m height. Entrainment only occurs one condensation takes place, and only above 200m for model stability.
 
 Other options:
 - MSE correction for the buoyancy production term in the prognostic equation for MSE
@@ -25,5 +25,8 @@ Inputs:
 - Virtual temperature lapse rate: idem
 - Parcel temperature and moisture excess at surface with respect to this reference profile
 
+There is a python visual interface which uses wx, but it should also be possible to compile the code in stand-alone mode and plot using e.g. gnuplot.
 
+gfortran: f95 -fdefault-double precision-8 simpletest.f90 -o simpletest
+./simpletest > gpfile
 
